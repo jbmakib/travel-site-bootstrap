@@ -1,0 +1,54 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+/* common thing styling */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* home part */
+
+#home {
+    background-image: url("../images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 993px) {
+    #home h1 {
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #home h1 {
+        font-size: 45px;
+    }
+}
+
+#home .btn-orange {
+    background-color: orange;
+}
+
+#home .text-lightred {
+    color: #E06951;
+}
+
+
+/* home section ends */
+
+
+/* category section starts */
+
+#category .container h1.h1-before::before {
+    content: "Category";
+    display: block;
+    font-size: 20px;
+    color: #999999;
+}
+
+
+/* category section ends */

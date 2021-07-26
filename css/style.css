@@ -8,6 +8,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.hover-bg-dark:hover {
+    background-color: black;
+    color: white!important;
+}
+
 
 /* home part */
 

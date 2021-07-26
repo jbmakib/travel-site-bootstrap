@@ -89,5 +89,10 @@ body {
     content: "Easy and fast";
 }
 
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
 
 /* steps section ends */

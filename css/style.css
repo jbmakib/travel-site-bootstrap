@@ -18,6 +18,12 @@ body {
     transition: transform 1s ease;
 }
 
+.container h1.h1-before::before {
+    display: block;
+    font-size: 20px;
+    color: #999999;
+}
+
 
 /* home part */
 
@@ -51,14 +57,11 @@ body {
 /* home section ends */
 
 
-/* category section starts */
+/* services section starts */
 
-#category .container h1.h1-before::before {
+#services .container h1.h1-before::before {
     content: "Category";
-    display: block;
-    font-size: 20px;
-    color: #999999;
 }
 
 
-/* category section ends */
+/* services section ends */

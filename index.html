@@ -269,6 +269,19 @@
                                         <i class="fab fa-telegram-plane"></i>
                                     </div>
                                 </div>
+                                <div class="d-flex align-items-center justify-content-between mt-3">
+                                    <p>
+                                        <span>
+                                            <i class="far fa-building"></i>
+                                        </span>
+                                        <span class="ps-1">
+                                            24 peoples going
+                                        </span>
+                                    </p>
+                                    <p role="button">
+                                        <i class="far fa-heart text-primary"></i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -276,6 +289,23 @@
             </div>
         </section>
         <!-- steps section ends -->
+        <!-- toast starts -->
+        <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hello, world! This is a toast message.
+                </div>
+            </div>
+        </div>
+        <!-- toast ends -->
     </main>
     <!-- main part ends here -->
     <!-- bootstrap js link -->

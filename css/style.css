@@ -65,3 +65,13 @@ body {
 
 
 /* services section ends */
+
+
+/* destination section starts */
+
+#destination .container h1.h1-before::before {
+    content: "Top selling";
+}
+
+
+/* destination section ends */

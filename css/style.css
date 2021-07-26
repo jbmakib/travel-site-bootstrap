@@ -116,3 +116,17 @@ body {
 
 
 /* review section ends */
+
+
+/* subscribe section starts */
+
+#subscribe {
+    background-image: url("../images/bg/subscribe.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 420px;
+}
+
+
+/* subscribe section ends */

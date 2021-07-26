@@ -96,3 +96,13 @@ body {
 
 
 /* steps section ends */
+
+
+/* review section starts */
+
+#review .container h1.h1-before::before {
+    content: "TESTIMONIAL";
+}
+
+
+/* review section ends */

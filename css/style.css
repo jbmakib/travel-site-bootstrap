@@ -28,7 +28,7 @@ body {
 /* home part */
 
 #home {
-    background-image: url("../images/7.png");
+    background-image: url("../images/bg/home.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,6 +68,12 @@ body {
 
 
 /* destination section starts */
+
+#destination {
+    background-image: url(../images/bg/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #destination .container h1.h1-before::before {
     content: "Top selling";

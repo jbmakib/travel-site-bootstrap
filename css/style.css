@@ -81,3 +81,13 @@ body {
 
 
 /* destination section ends */
+
+
+/* steps section starts */
+
+#steps .container h1.h1-before::before {
+    content: "Easy and fast";
+}
+
+
+/* steps section ends */

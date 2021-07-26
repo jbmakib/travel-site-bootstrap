@@ -100,8 +100,18 @@ body {
 
 /* review section starts */
 
+#review {
+    background-image: url("../images/bg/review.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #review .container h1.h1-before::before {
     content: "TESTIMONIAL";
+}
+
+.w-90 {
+    width: 90%;
 }
 
 

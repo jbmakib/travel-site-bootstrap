@@ -1,15 +1,15 @@
-var option = {
+const option = {
     animation: true,
-    delay: 2500
+    delay: 2500,
 };
 
-var toastHTMLElement = document.getElementById("liveToast");
-var toastElement = new bootstrap.Toast(toastHTMLElement, option);
+const toastHTMLElement = document.getElementById("liveToast");
+const toastElement = new bootstrap.Toast(toastHTMLElement, option);
 
 function ToastyOn() {
-    toastElement.show()
+    toastElement.show();
 }
 
 function ToastyOff() {
-    toastElement.hide()
+    toastElement.hide();
 }

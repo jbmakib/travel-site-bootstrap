@@ -1,16 +1,16 @@
 /* google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
 /* common thing styling */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .hover-bg-dark:hover {
     background-color: black;
-    color: white!important;
+    color: white !important;
 }
 
 .hover-big:hover {
@@ -23,7 +23,6 @@ body {
     font-size: 20px;
     color: #999999;
 }
-
 
 /* home part */
 
@@ -50,12 +49,10 @@ body {
 }
 
 #home .text-lightred {
-    color: #E06951;
+    color: #e06951;
 }
 
-
 /* home section ends */
-
 
 /* services section starts */
 
@@ -63,9 +60,7 @@ body {
     content: "Category";
 }
 
-
 /* services section ends */
-
 
 /* destination section starts */
 
@@ -79,9 +74,7 @@ body {
     content: "Top selling";
 }
 
-
 /* destination section ends */
-
 
 /* steps section starts */
 
@@ -94,9 +87,7 @@ body {
     height: 40px;
 }
 
-
 /* steps section ends */
-
 
 /* review section starts */
 
@@ -114,9 +105,7 @@ body {
     width: 90%;
 }
 
-
 /* review section ends */
-
 
 /* subscribe section starts */
 
@@ -127,6 +116,5 @@ body {
     background-position: center;
     height: 420px;
 }
-
 
 /* subscribe section ends */

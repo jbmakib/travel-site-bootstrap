@@ -1,574 +1,1035 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jadoo</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jadoo</title>
+        <!-- favicon linking -->
 
+        <link rel="shortcut icon" href="images/icon.png" />
 
-    <!-- favicon linking -->
+        <!-- animate css link -->
 
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
 
-    <link rel="shortcut icon" href="images/icon.png">
+        <!-- bootstrap css linking -->
 
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
 
-    <!-- animate css link -->
+        <!-- own css linking -->
 
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <body>
+        <!-- header part starts here -->
 
-
-    <!-- bootstrap css linking -->
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
-    <!-- own css linking -->
-
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-
-    <!-- header part starts here -->
-
-
-    <header class="sticky-top bg-white">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="" width="150px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item ms-4">
-                            <a class="nav-link active" aria-current="page" href="#">Destinations</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link active" href="#">Hotels</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link active" href="#">Flights</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link active" href="#">Bookings</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link active" href="#">Login</a>
-                        </li>
-                        <li class="nav-item ms-4">
-                            <a class="nav-link border rounded-pill px-4 border-dark border-2 active hover-bg-dark" href="#">Sign up</a>
-                        </li>
-                        <li class="nav-item ms-4 dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              EN
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">BN</a></li>
-                                <li><a class="dropdown-item" href="#">Select another</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
-    <!-- header part ends here -->
-
-
-
-
-    <!-- main part starts here -->
-
-
-    <main>
-
-
-        <!-- home part section starts -->
-
-
-        <section id="home" class="mb-5">
-            <div class="container">
-                <div class="d-flex align-items-center justify-content-between row">
-                    <div class="col-12 col-md-8 col-lg-6">
-                        <p class="text-lightred">BEST DESTINATIONS AROUND THE WORLD</p>
-                        <h1>Travel, enjoy and live a new and full life</h1>
-                        <p class="text-muted">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-                        <div class="d-flex flex-wrap align-items-center">
-                            <a role="button" class="text-decoration-none text-white px-4 py-3 rounded-3 btn-orange hover-big">Find out more</a>
-                            <a role="button" class="text-decoration-none d-flex align-items-center ms-4 py-3 hover-big">
-                                <i class="fas fa-play-circle text-lightred me-2 fs-1 animate__pulse animate__animated animate__infinite"></i>
-                                <span class="text-dark">
-                                    Play Demo
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-8 col-lg-6">
-                        <img src="images/model/banner-model.png" alt="" class="w-100">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- home part section ends -->
-
-
-
-
-        <!-- services section starts -->
-
-
-        <section id="services" class="mb-5">
-            <div class="container">
-                <h1 class="h1-before text-center">We Offer Best Services</h1>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-4 text-center justify-content-center">
-                    <div class="col">
-                        <div class="card h-100 border-0">
-                            <div class="card-body">
-                                <i class="fas fa-broadcast-tower fs-1"></i>
-                                <h5 class="card-title mt-3">Calculated Weather</h5>
-                                <p class="card-text text-muted">Built Wicket longer admire do barton vanity itself do in it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0 shadow">
-                            <div class="card-body">
-                                <i class="fas fa-plane fs-1"></i>
-                                <h5 class="card-title mt-3">Best Flights</h5>
-                                <p class="card-text text-muted">Engrossed listening. Park gate sell they west hard for the.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0">
-                            <div class="card-body">
-                                <i class="fas fa-microphone-alt fs-1"></i>
-                                <h5 class="card-title mt-3">Local Events</h5>
-                                <p class="card-text text-muted">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0">
-                            <div class="card-body">
-                                <i class="fas fa-cog fs-1"></i>
-                                <h5 class="card-title mt-3">Customization</h5>
-                                <p class="card-text text-muted">We deliver outsourced aviation services for military cutomers.</p>
-                            </div>
-                        </div>
+        <header class="sticky-top bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="" width="150px" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul
+                            class="
+                                navbar-nav
+                                align-items-center
+                                ms-auto
+                                mb-2 mb-lg-0
+                            "
+                        >
+                            <li class="nav-item ms-4">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Destinations</a
+                                >
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link active" href="#">Hotels</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link active" href="#">Flights</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link active" href="#">Bookings</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a class="nav-link active" href="#">Login</a>
+                            </li>
+                            <li class="nav-item ms-4">
+                                <a
+                                    class="
+                                        nav-link
+                                        border
+                                        rounded-pill
+                                        px-4
+                                        border-dark border-2
+                                        active
+                                        hover-bg-dark
+                                    "
+                                    href="#"
+                                    >Sign up</a
+                                >
+                            </li>
+                            <li class="nav-item ms-4 dropdown">
+                                <a
+                                    class="nav-link active dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    EN
+                                </a>
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#">BN</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Select another</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </nav>
+        </header>
 
+        <!-- header part ends here -->
 
-        <!-- services section ends -->
+        <!-- main part starts here -->
 
+        <main>
+            <!-- home part section starts -->
 
-
-
-        <!-- destination section starts -->
-
-
-        <section id="destination" class="mb-5 py-5">
-            <div class="container">
-                <h1 class="h1-before text-center">Top Destination</h1>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mt-4 justify-content-center">
-                    <div class="col">
-                        <div class="card h-100 border-0 shadow overflow-hidden">
-                            <img src="images/place/rome.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted d-flex justify-content-between">
-                                    <span>
-                                        Rome, Italy
-                                    </span>
-                                    <span>
-                                        $5.42k
-                                    </span>
-                                </h5>
-                                <p class="card-text pt-3 pb-2">
-                                    <span>
-                                        <i class="fas fa-location-arrow"></i>
-                                    </span>
-                                    <span class="text-muted ps-3">
-                                        10 Days Trip
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0 shadow overflow-hidden">
-                            <img src="images/place/london.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted d-flex justify-content-between">
-                                    <span>
-                                        London, UK
-                                    </span>
-                                    <span>
-                                        $4.2k
-                                    </span>
-                                </h5>
-                                <p class="card-text pt-3 pb-2">
-                                    <span>
-                                        <i class="fas fa-location-arrow"></i>
-                                    </span>
-                                    <span class="text-muted ps-3">
-                                        12 Days Trip
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100 border-0 shadow overflow-hidden">
-                            <img src="images/place/euro.jpg" alt="" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title text-muted d-flex justify-content-between">
-                                    <span>
-                                        Full Europe
-                                    </span>
-                                    <span>
-                                        $15k
-                                    </span>
-                                </h5>
-                                <p class="card-text pt-3 pb-2">
-                                    <span>
-                                        <i class="fas fa-location-arrow"></i>
-                                    </span>
-                                    <span class="text-muted ps-3">
-                                        28 Days Trip
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- destination section ends -->
-
-
-
-
-        <!-- steps section starts -->
-
-
-        <section id="steps" class="mb-5 py-5">
-            <div class="container">
-                <div class="d-flex justify-content-between align-items-center row">
-                    <div class="col-12 col-md-6">
-                        <h1 class="h1-before">
-                            Book your next trip in 3 easy steps
-                        </h1>
-                        <div class="d-flex align-items-center mt-5">
-                            <div class="bg-warning p-2 rounded">
-                                <img src="images/icons/square.svg" alt="" width="25" height="25">
-                            </div>
-                            <div class="ps-3 text-muted">
-                                <h5>Choose Destination</h5>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quaerat tempora.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center mt-5">
-                            <div class="bg-danger p-2 rounded">
-                                <img src="images/icons/pay.svg" alt="" width="25" height="25">
-                            </div>
-                            <div class="ps-3 text-muted">
-                                <h5>Make Payment</h5>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quaerat tempora.</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-center mt-5">
-                            <div class="bg-success p-2 rounded">
-                                <img src="images/icons/car.svg" alt="" width="25" height="25">
-                            </div>
-                            <div class="ps-3 text-muted">
-                                <h5>Reach Airport on Selected Date</h5>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quaerat tempora.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center mt-5 m-md-0">
-                        <div class="card" onmouseenter="ToastyOn()" onmouseout="ToastyOff()">
-                            <div class="card-body">
-                                <img src="images/model/steps-model.png" class="card-img-top" alt="...">
-                                <h5 class="card-title mt-3">Trip To Greece</h5>
-                                <p class="card-text pt-2 text-muted">
-                                    <span>
-                                        14-29 June | by Robbin Josh
-                                    </span>
-                                </p>
-                                <div class="card-text text-muted d-flex">
-                                    <div class="icon rounded-circle bg-light p-2 d-flex justify-content-center align-items-center me-3">
-                                        <i class="fas fa-leaf"></i>
-                                    </div>
-                                    <div class="icon rounded-circle bg-light p-2 d-flex justify-content-center align-items-center me-3">
-                                        <i class="far fa-map"></i>
-                                    </div>
-                                    <div class="icon rounded-circle bg-light p-2 d-flex justify-content-center align-items-center">
-                                        <i class="fab fa-telegram-plane"></i>
-                                    </div>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between mt-3">
-                                    <p>
-                                        <span>
-                                            <i class="far fa-building"></i>
-                                        </span>
-                                        <span class="ps-1">
-                                            24 peoples going
-                                        </span>
-                                    </p>
-                                    <p role="button">
-                                        <i class="far fa-heart text-primary"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="position-fixed bottom-50 top-50 end-0 p-3" style="z-index: 11">
-                    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <img src="images/dome.jpg" width="50" class="rounded-circle me-2" alt="A place image">
-                            <div>
-                                <small class="text-muted">Ongoing</small>
-                                <h5 class="text-dark">Trip to rome</h5>
-                            </div>
-                            <button type="button" class="btn-close ms-auto me-1" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                        <div class="toast-body text-center">
-                            <p>
-                                <span class="text-primary">40%</span>
-                                <span>completed</span>
+            <section id="home" class="mb-5">
+                <div class="container">
+                    <div
+                        class="
+                            d-flex
+                            align-items-center
+                            justify-content-between
+                            row
+                        "
+                    >
+                        <div class="col-12 col-md-8 col-lg-6">
+                            <p class="text-lightred">
+                                BEST DESTINATIONS AROUND THE WORLD
                             </p>
-                            <div class="progress w-75 mx-auto" style="height: 5px;">
-                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                            <h1>Travel, enjoy and live a new and full life</h1>
+                            <p class="text-muted">
+                                Built Wicket longer admire do barton vanity
+                                itself do in it. Preferred to sportsmen it
+                                engrossed listening. Park gate sell they west
+                                hard for the.
+                            </p>
+                            <div class="d-flex flex-wrap align-items-center">
+                                <a
+                                    role="button"
+                                    class="
+                                        text-decoration-none text-white
+                                        px-4
+                                        py-3
+                                        rounded-3
+                                        btn-orange
+                                        hover-big
+                                    "
+                                    >Find out more</a
+                                >
+                                <a
+                                    role="button"
+                                    class="
+                                        text-decoration-none
+                                        d-flex
+                                        align-items-center
+                                        ms-4
+                                        py-3
+                                        hover-big
+                                    "
+                                >
+                                    <i
+                                        class="
+                                            fas
+                                            fa-play-circle
+                                            text-lightred
+                                            me-2
+                                            fs-1
+                                            animate__pulse
+                                            animate__animated
+                                            animate__infinite
+                                        "
+                                    ></i>
+                                    <span class="text-dark"> Play Demo </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-6">
+                            <img
+                                src="images/model/banner-model.png"
+                                alt=""
+                                class="w-100"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- home part section ends -->
+
+            <!-- services section starts -->
+
+            <section id="services" class="mb-5">
+                <div class="container">
+                    <h1 class="h1-before text-center">
+                        We Offer Best Services
+                    </h1>
+                    <div
+                        class="
+                            row
+                            row-cols-1
+                            row-cols-sm-2
+                            row-cols-md-3
+                            row-cols-lg-4
+                            g-4
+                            mt-4
+                            text-center
+                            justify-content-center
+                        "
+                    >
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <div class="card-body">
+                                    <i class="fas fa-broadcast-tower fs-1"></i>
+                                    <h5 class="card-title mt-3">
+                                        Calculated Weather
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Built Wicket longer admire do barton
+                                        vanity itself do in it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0 shadow">
+                                <div class="card-body">
+                                    <i class="fas fa-plane fs-1"></i>
+                                    <h5 class="card-title mt-3">
+                                        Best Flights
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Engrossed listening. Park gate sell they
+                                        west hard for the.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <div class="card-body">
+                                    <i class="fas fa-microphone-alt fs-1"></i>
+                                    <h5 class="card-title mt-3">
+                                        Local Events
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        Barton vanity itself do in it. Preferd
+                                        to men it engrossed listening.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <div class="card-body">
+                                    <i class="fas fa-cog fs-1"></i>
+                                    <h5 class="card-title mt-3">
+                                        Customization
+                                    </h5>
+                                    <p class="card-text text-muted">
+                                        We deliver outsourced aviation services
+                                        for military cutomers.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
+            <!-- services section ends -->
 
-        <!-- steps section ends -->
+            <!-- destination section starts -->
 
-
-
-
-        <!-- review section starts -->
-
-
-        <section id="review" class="mb-5 py-5">
-            <div class="container">
-                <h1 class="text-center">Review</h1>
-
-
-                <!-- carousel starts -->
-
-                <div class="row row-cols-1 row-cols-md-2 align-items-center" style="height: 400px;">
-                    <div>
-                        <h1 class="h1-before">What people say about Us.</h1>
-                    </div>
-                    <div>
-                        <div id="carouselExampleIndicators" class="carousel carousel-dark carousel-fade w-100 h-100" data-bs-ride="carousel">
-                            <div class="carousel-indicators m-0 mx-auto">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <section id="destination" class="mb-5 py-5">
+                <div class="container">
+                    <h1 class="h1-before text-center">Top Destination</h1>
+                    <div
+                        class="
+                            row row-cols-1 row-cols-sm-2 row-cols-lg-3
+                            g-4
+                            mt-4
+                            justify-content-center
+                        "
+                    >
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    h-100
+                                    border-0
+                                    shadow
+                                    overflow-hidden
+                                "
+                            >
+                                <img
+                                    src="images/place/rome.jpg"
+                                    alt=""
+                                    class="card-img-top"
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="
+                                            card-title
+                                            text-muted
+                                            d-flex
+                                            justify-content-between
+                                        "
+                                    >
+                                        <span> Rome, Italy </span>
+                                        <span> $5.42k </span>
+                                    </h5>
+                                    <p class="card-text pt-3 pb-2">
+                                        <span>
+                                            <i
+                                                class="fas fa-location-arrow"
+                                            ></i>
+                                        </span>
+                                        <span class="text-muted ps-3">
+                                            10 Days Trip
+                                        </span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="carousel-inner overflow-visible d-flex">
-                                <div class="carousel-item active w-90 mx-auto">
-                                    <div class="card">
-                                        <div class="position-relative">
-                                            <span class="position-absolute top-0 start-0 translate-middle">
-                                                <img src="images/model/ratings-model-1.jpg" class="rounded-circle" width="50" height="50" alt="">
+                        </div>
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    h-100
+                                    border-0
+                                    shadow
+                                    overflow-hidden
+                                "
+                            >
+                                <img
+                                    src="images/place/london.jpg"
+                                    alt=""
+                                    class="card-img-top"
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="
+                                            card-title
+                                            text-muted
+                                            d-flex
+                                            justify-content-between
+                                        "
+                                    >
+                                        <span> London, UK </span>
+                                        <span> $4.2k </span>
+                                    </h5>
+                                    <p class="card-text pt-3 pb-2">
+                                        <span>
+                                            <i
+                                                class="fas fa-location-arrow"
+                                            ></i>
+                                        </span>
+                                        <span class="text-muted ps-3">
+                                            12 Days Trip
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div
+                                class="
+                                    card
+                                    h-100
+                                    border-0
+                                    shadow
+                                    overflow-hidden
+                                "
+                            >
+                                <img
+                                    src="images/place/euro.jpg"
+                                    alt=""
+                                    class="card-img-top"
+                                />
+                                <div class="card-body">
+                                    <h5
+                                        class="
+                                            card-title
+                                            text-muted
+                                            d-flex
+                                            justify-content-between
+                                        "
+                                    >
+                                        <span> Full Europe </span>
+                                        <span> $15k </span>
+                                    </h5>
+                                    <p class="card-text pt-3 pb-2">
+                                        <span>
+                                            <i
+                                                class="fas fa-location-arrow"
+                                            ></i>
+                                        </span>
+                                        <span class="text-muted ps-3">
+                                            28 Days Trip
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- destination section ends -->
+
+            <!-- steps section starts -->
+
+            <section id="steps" class="mb-5 py-5">
+                <div class="container">
+                    <div
+                        class="
+                            d-flex
+                            justify-content-between
+                            align-items-center
+                            row
+                        "
+                    >
+                        <div class="col-12 col-md-6">
+                            <h1 class="h1-before">
+                                Book your next trip in 3 easy steps
+                            </h1>
+                            <div class="d-flex align-items-center mt-5">
+                                <div class="bg-warning p-2 rounded">
+                                    <img
+                                        src="images/icons/square.svg"
+                                        alt=""
+                                        width="25"
+                                        height="25"
+                                    />
+                                </div>
+                                <div class="ps-3 text-muted">
+                                    <h5>Choose Destination</h5>
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Quod, quaerat tempora.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mt-5">
+                                <div class="bg-danger p-2 rounded">
+                                    <img
+                                        src="images/icons/pay.svg"
+                                        alt=""
+                                        width="25"
+                                        height="25"
+                                    />
+                                </div>
+                                <div class="ps-3 text-muted">
+                                    <h5>Make Payment</h5>
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Quod, quaerat tempora.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mt-5">
+                                <div class="bg-success p-2 rounded">
+                                    <img
+                                        src="images/icons/car.svg"
+                                        alt=""
+                                        width="25"
+                                        height="25"
+                                    />
+                                </div>
+                                <div class="ps-3 text-muted">
+                                    <h5>Reach Airport on Selected Date</h5>
+                                    <p class="mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Quod, quaerat tempora.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="
+                                col-12 col-md-6
+                                d-flex
+                                justify-content-center
+                                mt-5
+                                m-md-0
+                            "
+                        >
+                            <div
+                                class="card"
+                                onmouseenter="ToastyOn()"
+                                onmouseout="ToastyOff()"
+                            >
+                                <div class="card-body">
+                                    <img
+                                        src="images/model/steps-model.png"
+                                        class="card-img-top"
+                                        alt="..."
+                                    />
+                                    <h5 class="card-title mt-3">
+                                        Trip To Greece
+                                    </h5>
+                                    <p class="card-text pt-2 text-muted">
+                                        <span>
+                                            14-29 June | by Robbin Josh
+                                        </span>
+                                    </p>
+                                    <div class="card-text text-muted d-flex">
+                                        <div
+                                            class="
+                                                icon
+                                                rounded-circle
+                                                bg-light
+                                                p-2
+                                                d-flex
+                                                justify-content-center
+                                                align-items-center
+                                                me-3
+                                            "
+                                        >
+                                            <i class="fas fa-leaf"></i>
+                                        </div>
+                                        <div
+                                            class="
+                                                icon
+                                                rounded-circle
+                                                bg-light
+                                                p-2
+                                                d-flex
+                                                justify-content-center
+                                                align-items-center
+                                                me-3
+                                            "
+                                        >
+                                            <i class="far fa-map"></i>
+                                        </div>
+                                        <div
+                                            class="
+                                                icon
+                                                rounded-circle
+                                                bg-light
+                                                p-2
+                                                d-flex
+                                                justify-content-center
+                                                align-items-center
+                                            "
+                                        >
+                                            <i
+                                                class="fab fa-telegram-plane"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="
+                                            d-flex
+                                            align-items-center
+                                            justify-content-between
+                                            mt-3
+                                        "
+                                    >
+                                        <p>
+                                            <span>
+                                                <i class="far fa-building"></i>
                                             </span>
-                                            <div class="card-body">
-                                                <p class="mb-3">"On the windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
-                                                <p class="h5">
-                                                    Mike Taylor
-                                                </p>
-                                                <p class="mb-0">Lahore, Pakistan</p>
+                                            <span class="ps-1">
+                                                24 peoples going
+                                            </span>
+                                        </p>
+                                        <p role="button">
+                                            <i
+                                                class="
+                                                    far
+                                                    fa-heart
+                                                    text-primary
+                                                "
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="position-fixed bottom-50 top-50 end-0 p-3"
+                        style="z-index: 11"
+                    >
+                        <div
+                            id="liveToast"
+                            class="toast hide"
+                            role="alert"
+                            aria-live="assertive"
+                            aria-atomic="true"
+                        >
+                            <div class="toast-header">
+                                <img
+                                    src="images/dome.jpg"
+                                    width="50"
+                                    class="rounded-circle me-2"
+                                    alt="A place image"
+                                />
+                                <div>
+                                    <small class="text-muted">Ongoing</small>
+                                    <h5 class="text-dark">Trip to rome</h5>
+                                </div>
+                                <button
+                                    type="button"
+                                    class="btn-close ms-auto me-1"
+                                    data-bs-dismiss="toast"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="toast-body text-center">
+                                <p>
+                                    <span class="text-primary">40%</span>
+                                    <span>completed</span>
+                                </p>
+                                <div
+                                    class="progress w-75 mx-auto"
+                                    style="height: 5px"
+                                >
+                                    <div
+                                        class="progress-bar"
+                                        role="progressbar"
+                                        style="width: 40%"
+                                        aria-valuenow="40"
+                                        aria-valuemin="0"
+                                        aria-valuemax="100"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- steps section ends -->
+
+            <!-- review section starts -->
+
+            <section id="review" class="mb-5 py-5">
+                <div class="container">
+                    <h1 class="text-center">Review</h1>
+
+                    <!-- carousel starts -->
+
+                    <div
+                        class="row row-cols-1 row-cols-md-2 align-items-center"
+                        style="height: 400px"
+                    >
+                        <div>
+                            <h1 class="h1-before">What people say about Us.</h1>
+                        </div>
+                        <div>
+                            <div
+                                id="carouselExampleIndicators"
+                                class="
+                                    carousel carousel-dark carousel-fade
+                                    w-100
+                                    h-100
+                                "
+                                data-bs-ride="carousel"
+                            >
+                                <div class="carousel-indicators m-0 mx-auto">
+                                    <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0"
+                                        class="active"
+                                        aria-current="true"
+                                        aria-label="Slide 1"
+                                    ></button>
+                                    <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1"
+                                        aria-label="Slide 2"
+                                    ></button>
+                                    <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2"
+                                        aria-label="Slide 3"
+                                    ></button>
+                                </div>
+                                <div
+                                    class="
+                                        carousel-inner
+                                        overflow-visible
+                                        d-flex
+                                    "
+                                >
+                                    <div
+                                        class="
+                                            carousel-item
+                                            active
+                                            w-90
+                                            mx-auto
+                                        "
+                                    >
+                                        <div class="card">
+                                            <div class="position-relative">
+                                                <span
+                                                    class="
+                                                        position-absolute
+                                                        top-0
+                                                        start-0
+                                                        translate-middle
+                                                    "
+                                                >
+                                                    <img
+                                                        src="images/model/ratings-model-1.jpg"
+                                                        class="rounded-circle"
+                                                        width="50"
+                                                        height="50"
+                                                        alt=""
+                                                    />
+                                                </span>
+                                                <div class="card-body">
+                                                    <p class="mb-3">
+                                                        "On the windows talking
+                                                        painted pasture yet its
+                                                        express parties use.
+                                                        Sure last upon he same
+                                                        as knew next. Of
+                                                        believed or diverted
+                                                        no."
+                                                    </p>
+                                                    <p class="h5">
+                                                        Mike Taylor
+                                                    </p>
+                                                    <p class="mb-0">
+                                                        Lahore, Pakistan
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="carousel-item w-90 mx-auto">
-                                    <div class="card">
-                                        <div class="position-relative">
-                                            <span class="position-absolute top-0 start-0 translate-middle">
-                                                <img src="images/model/ratings-model-2.jpg" class="rounded-circle" width="50" height="50" alt="">
-                                            </span>
-                                            <div class="card-body">
-                                                <p class="mb-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur quas fugiat laudantium voluptas dolore, sunt debitis possimus."</p>
-                                                <p class="h5">
-                                                    Mike br.
-                                                </p>
-                                                <p class="mb-0">Bristol, UK</p>
+                                    <div class="carousel-item w-90 mx-auto">
+                                        <div class="card">
+                                            <div class="position-relative">
+                                                <span
+                                                    class="
+                                                        position-absolute
+                                                        top-0
+                                                        start-0
+                                                        translate-middle
+                                                    "
+                                                >
+                                                    <img
+                                                        src="images/model/ratings-model-2.jpg"
+                                                        class="rounded-circle"
+                                                        width="50"
+                                                        height="50"
+                                                        alt=""
+                                                    />
+                                                </span>
+                                                <div class="card-body">
+                                                    <p class="mb-3">
+                                                        "Lorem ipsum dolor sit
+                                                        amet consectetur
+                                                        adipisicing elit. Eum
+                                                        tenetur quas fugiat
+                                                        laudantium voluptas
+                                                        dolore, sunt debitis
+                                                        possimus."
+                                                    </p>
+                                                    <p class="h5">Mike br.</p>
+                                                    <p class="mb-0">
+                                                        Bristol, UK
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="carousel-item w-90 mx-auto">
-                                    <div class="card">
-                                        <div class="position-relative">
-                                            <span class="position-absolute top-0 start-0 translate-middle">
-                                                <img src="images/model/ratings-model-3.jpg" class="rounded-circle" width="50" height="50" alt="">
-                                            </span>
-                                            <div class="card-body">
-                                                <p class="mb-3">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi consequuntur fuga maxime officia rem. Placeat esse natus minima corrup."</p>
-                                                <p class="h5">
-                                                    M. Jawad
-                                                </p>
-                                                <p class="mb-0">Istanbul, Turkey</p>
+                                    <div class="carousel-item w-90 mx-auto">
+                                        <div class="card">
+                                            <div class="position-relative">
+                                                <span
+                                                    class="
+                                                        position-absolute
+                                                        top-0
+                                                        start-0
+                                                        translate-middle
+                                                    "
+                                                >
+                                                    <img
+                                                        src="images/model/ratings-model-3.jpg"
+                                                        class="rounded-circle"
+                                                        width="50"
+                                                        height="50"
+                                                        alt=""
+                                                    />
+                                                </span>
+                                                <div class="card-body">
+                                                    <p class="mb-3">
+                                                        "Lorem ipsum dolor sit
+                                                        amet consectetur,
+                                                        adipisicing elit. Quasi
+                                                        consequuntur fuga maxime
+                                                        officia rem. Placeat
+                                                        esse natus minima
+                                                        corrup."
+                                                    </p>
+                                                    <p class="h5">M. Jawad</p>
+                                                    <p class="mb-0">
+                                                        Istanbul, Turkey
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- carousel ends -->
                     </div>
-
-
-                    <!-- carousel ends -->
-
                 </div>
-            </div>
-        </section>
+            </section>
 
+            <!-- review section ends -->
 
-        <!-- review section ends -->
+            <!-- partners section starts -->
 
+            <section id="partners" class="mb-5 pb-5">
+                <div class="container">
+                    <h1 class="text-center mb-5">Our Partners</h1>
+                    <div
+                        class="
+                            row row-cols-lg-5
+                            g-3
+                            justify-content-center
+                            flex-column flex-sm-row
+                            align-items-center
+                        "
+                    >
+                        <div
+                            role="button"
+                            class="
+                                col-6 col-md-4 col-lg-2
+                                p-3
+                                d-flex
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <img
+                                src="images/partners/1.png"
+                                alt=""
+                                style="width: 150px"
+                            />
+                        </div>
+                        <div
+                            role="button"
+                            class="
+                                col-6 col-md-4 col-lg-2
+                                p-3
+                                d-flex
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <img
+                                src="images/partners/2.png"
+                                alt=""
+                                style="width: 150px"
+                            />
+                        </div>
+                        <div
+                            role="button"
+                            class="
+                                col-10 col-md-4 col-lg-3
+                                p-3
+                                d-flex
+                                justify-content-center
+                                align-items-center
+                                shadow
+                            "
+                        >
+                            <img
+                                src="images/partners/3.png"
+                                alt=""
+                                style="width: 150px"
+                            />
+                        </div>
+                        <div
+                            role="button"
+                            class="
+                                col-6 col-md-4 col-lg-2
+                                p-3
+                                d-flex
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <img
+                                src="images/partners/4.png"
+                                alt=""
+                                style="width: 150px"
+                            />
+                        </div>
+                        <div
+                            role="button"
+                            class="
+                                col-6 col-md-4 col-lg-2
+                                p-3
+                                d-flex
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <img
+                                src="images/partners/5.png"
+                                alt=""
+                                style="width: 150px"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- partners section ends -->
 
+            <!-- subscribe section starts -->
 
-        <!-- partners section starts -->
+            <section id="subscribe" class="mb-5">
+                <div class="container h-100 d-flex">
+                    <div class="m-auto">
+                        <div class="text-center">
+                            <h3>
+                                Subscribe to get information, latest new and
+                                other
+                            </h3>
+                            <h3>interesting offers about Cobham</h3>
+                        </div>
+                        <div>
+                            <form
+                                class="row g-3 m-0 mt-3 justify-content-center"
+                            >
+                                <div class="col-auto m-0">
+                                    <label
+                                        for="inputPassword2"
+                                        class="visually-hidden"
+                                        >Password</label
+                                    >
+                                    <input
+                                        type="email"
+                                        class="form-control p-3"
+                                        id="inputPassword2"
+                                        placeholder="Email"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-auto m-0">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-primary p-3"
+                                    >
+                                        Confirm identity
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- subscribe section ends -->
+        </main>
 
-        <section id="partners" class="mb-5 pb-5">
+        <!-- main part ends here -->
+
+        <!-- footer starts -->
+
+        <footer id="footer" class="py-5">
             <div class="container">
-                <h1 class="text-center mb-5">Our Partners</h1>
-                <div class="row row-cols-lg-5 g-3 justify-content-center flex-column flex-sm-row align-items-center">
-                    <div role="button" class="col-6 col-md-4 col-lg-2 p-3 d-flex justify-content-center align-items-center">
-                        <img src="images/partners/1.png" alt="" style="width: 150px;">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/logo.png" alt="" width="150px" />
+                        <br />
+                        <small>
+                            Book your trip in minute, get full Control for much
+                            longer
+                        </small>
                     </div>
-                    <div role="button" class="col-6 col-md-4 col-lg-2 p-3 d-flex justify-content-center align-items-center">
-                        <img src="images/partners/2.png" alt="" style="width: 150px;">
-                    </div>
-                    <div role="button" class="col-10 col-md-4 col-lg-3 p-3 d-flex justify-content-center align-items-center shadow">
-                        <img src="images/partners/3.png" alt="" style="width: 150px;">
-                    </div>
-                    <div role="button" class="col-6 col-md-4 col-lg-2 p-3 d-flex justify-content-center align-items-center">
-                        <img src="images/partners/4.png" alt="" style="width: 150px;">
-                    </div>
-                    <div role="button" class="col-6 col-md-4 col-lg-2 p-3 d-flex justify-content-center align-items-center">
-                        <img src="images/partners/5.png" alt="" style="width: 150px;">
-                    </div>
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-3"></div>
                 </div>
             </div>
-        </section>
+        </footer>
 
+        <!-- footer ends -->
 
-        <!-- partners section ends -->
+        <!-- bootstrap js link -->
 
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
 
+        <!-- font-awesome js linking -->
 
+        <script
+            src="https://kit.fontawesome.com/1ceb2222b2.js"
+            crossorigin="anonymous"
+        ></script>
 
-        <!-- subscribe section starts -->
+        <!-- adding own js file -->
 
-
-        <section id="subscribe" class="mb-5">
-            <div class="container h-100 d-flex">
-                <div class="m-auto">
-                    <div class="text-center">
-                        <h3>Subscribe to get information, latest new and other</h3>
-                        <h3>interesting offers about Cobham</h3>
-                    </div>
-                    <div>
-                        <form class="row g-3 m-0 mt-3 justify-content-center">
-                            <div class="col-auto m-0">
-                                <label for="inputPassword2" class="visually-hidden">Password</label>
-                                <input type="email" class="form-control p-3" id="inputPassword2" placeholder="Email" required>
-                            </div>
-                            <div class="col-auto m-0">
-                                <button type="submit" class="btn btn-primary p-3">Confirm identity</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- subscribe section ends -->
-
-
-    </main>
-
-
-    <!-- main part ends here -->
-
-
-
-
-    <!-- footer starts -->
-
-
-    <footer id="footer" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <img src="images/logo.png" alt="" width="150px">
-                    <br>
-                    <small>
-                        Book your trip in minute, get full Control for much longer
-                    </small>
-                </div>
-                <div class="col-lg-6"></div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- footer ends -->
-
-
-
-
-    <!-- bootstrap js link -->
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
-    <!-- font-awesome js linking -->
-
-
-    <script src="https://kit.fontawesome.com/1ceb2222b2.js" crossorigin="anonymous"></script>
-
-
-    <!-- adding own js file -->
-
-
-    <script src="js/script.js"></script>
-</body>
-
+        <script src="js/script.js"></script>
+    </body>
 </html>
